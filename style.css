@@ -45,6 +45,15 @@ h5 {
   text-shadow: #f00 -3px 0px 2px;
 }
 
+#gradiente{
+  background: rgb(255,0,0);
+ background: -moz-linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(19,121,9,1) 41%, rgba(0,212,255,1) 100%);
+ background: -webkit-linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(19,121,9,1) 41%, rgba(0,212,255,1) 100%);
+ background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(19,121,9,1) 41%, rgba(0,212,255,1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#00d4ff",GradientType=1);
+
+}
+
 #formulario {
 text-align:center;
 background-image: url("https://thumbs.gfycat.com/CarelessGraciousHowlermonkey-size_restricted.gif");
