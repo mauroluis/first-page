@@ -35,10 +35,18 @@ h4 {
   border-radius: 50%;
   box-shadow: 0px 10px 5px;
   text-shadow: #f00 -3px 0px 2px;
-  transform: rotate(0deg) translateX(0px) translateY(50px) skew(45deg);
   background-image: url("https://2.bp.blogspot.com/-qiI20raFTSk/V3aC0lF9GjI/AAAAAAAFmFA/txsuk-dZrdQR-UUCH32fFemwxAXlvOVYACLcB/s1600/EFECTOS%2B%2528414%2529.gif");
+transition: transform 1s;
+}
+
+h4:hover{
+
+  transform: rotate(10deg) translateX(-10px) translateY(10px) skew(30deg);
+
 
 }
+
+
 h5 {
   color: white;
   text-align: center;
@@ -85,6 +93,7 @@ div {
 div:hover {
 	background-color: rgba(0,0,0,0.5);
 }
+
 
 span {
     color: white;
