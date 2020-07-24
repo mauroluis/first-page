@@ -76,6 +76,15 @@ height: 20px;
 background-color: red;
 }
 
+#button {
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+}
+#button:hover {
+  font-size: 36px;
+}
 
 div {
   transition: background 1s;
@@ -85,6 +94,7 @@ div {
 div:hover {
 	background-color: rgba(0,0,0,0.5);
 }
+
 
 span {
     color: white;
