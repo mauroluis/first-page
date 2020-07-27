@@ -78,10 +78,19 @@ border: 3px solid #00FF00;
 #testo:disabled{
 }
 
-#container .menu:first-child li {
-height: 20px;
-  max-width: 25%;
+#container .menu li:first-child{
 background-color: red;
+}
+
+#container .menu li:nth-of-type(2){
+  font-size: 20px;
+  color: #FFFF00;
+}
+
+#container .menu li:nth-of-type(2):first-letter{
+font-weight: bold;
+  font-size: 3em;
+
 }
 
 #button {
