@@ -5,6 +5,17 @@
 		<meta charset="UTF-8">
 		<title>Primera Pagina Atom Versionada en Git</title>
 		<link rel="stylesheet" href="style.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
 	</head>
 	<body>
 				  <h1 id="TITULO">HOLANDA </h1><br><br><br><br>
@@ -47,6 +58,13 @@
 	  <p>Ésta es una sección de la página.</p>
 	  <p>Otro párrafo, dentro de la misma sección.</p>
 	</section>
+</div>
+	<div>
+<p>Si haces click en "Esconder" voy a esconderme.</p>
+
+<button id="hide">Esconder</button>
+<button id="show">Mostrar</button>
+
 </div>
 
 	<div><h3>Título principal</h3>
