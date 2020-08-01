@@ -97,15 +97,12 @@ font-weight: bold;
 
 }
 
-#button {
-  font-size: 14px;
-  transition-property: font-size;
-  transition-duration: 4s;
-  transition-delay: 2s;
+.jq {
+text-align: center;
+color: red;
+text-shadow: #FFF 1px 0px;
 }
-#button:hover {
-  font-size: 36px;
-}
+
 
 div {
   transition: background 1s;

@@ -9,10 +9,10 @@
 <script>
 $(document).ready(function(){
   $("#hide").click(function(){
-    $("p").hide();
+    $(".jq").hide();
   });
   $("#show").click(function(){
-    $("p").show();
+    $(".jq").fadeIn();
   });
 });
 </script>
@@ -53,14 +53,16 @@ $(document).ready(function(){
 </p>
 </div>
 
-<div id="button">
+<div>
 	<section>
-	  <p>Ésta es una sección de la página.</p>
-	  <p>Otro párrafo, dentro de la misma sección.</p>
+	  <p class="seccion">Ésta es una sección de la página.</p>
+	  <p class="seccion">Otro párrafo, dentro de la misma sección.</p>
 	</section>
 </div>
-	<div>
-<p>Si haces click en "Esconder" voy a esconderme.</p>
+
+	<div>	<section>
+<p class="jq">Si haces click en "Esconder" voy a esconderme. Al apretar "Mostrar" vas a hacerme aparecer lentamente.
+<br><br>Esto es posible gracias a la libreria Jquery</p>	</section>
 
 <button id="hide">Esconder</button>
 <button id="show">Mostrar</button>
