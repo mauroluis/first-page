@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("#hide").click(function(){
-    $(".jq").hide();
+    $(".jq").fadeOut();
   });
   $("#show").click(function(){
     $(".jq").fadeIn();
