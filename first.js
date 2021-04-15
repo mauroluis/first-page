@@ -1,3 +1,4 @@
+"use strict"
 $(document).ready(function(){
   $("#hide").click(function(){
     $(".jq").fadeOut(1000);
